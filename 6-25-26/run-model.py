@@ -33,7 +33,7 @@ https://ran_2ai.in
 while 1 : 
   print("*"*100)
   prompt= input("You :") 
-  if prompt.lower() in ("exit", "quit") :
+  if prompt.lower() in ("exit", "quit", "bye") :
     break
   else :
     all_messages.append({ "role":"user","content":prompt})
